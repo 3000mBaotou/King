@@ -1,0 +1,56 @@
+2018-07-07 11:53:38.569  INFO 13064 --- [main] com.EmailApplication                     : Starting EmailApplication on DESKTOP-PQORCDR with PID 13064 (D:\STS_WorkSpace\Email\target\classes started by Augustine in D:\STS_WorkSpace\Email)
+2018-07-07 11:53:38.572  INFO 13064 --- [main] com.EmailApplication                     : No active profile set, falling back to default profiles: default
+2018-07-07 11:53:38.670  INFO 13064 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1176dcec: startup date [Sat Jul 07 11:53:38 CST 2018]; root of context hierarchy
+2018-07-07 11:53:41.250  INFO 13064 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8177 (http)
+2018-07-07 11:53:41.294  INFO 13064 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-07-07 11:53:41.295  INFO 13064 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-07-07 11:53:41.490  INFO 13064 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-07-07 11:53:41.491  INFO 13064 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2827 ms
+2018-07-07 11:53:41.683  INFO 13064 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-07-07 11:53:41.689  INFO 13064 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-07-07 11:53:41.690  INFO 13064 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-07-07 11:53:41.690  INFO 13064 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-07-07 11:53:41.691  INFO 13064 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-07-07 11:53:42.087  INFO 13064 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1176dcec: startup date [Sat Jul 07 11:53:38 CST 2018]; root of context hierarchy
+2018-07-07 11:53:42.094  INFO 13064 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Detected ResponseBodyAdvice bean in fastJsonpResponseBodyAdvice
+2018-07-07 11:53:42.165  INFO 13064 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/send/email],methods=[POST]}" onto public com.example.demo.vo.response.ResponseResult com.example.demo.controller.SendEmailController.sendEmail(com.example.demo.vo.email.SendEmail,org.springframework.validation.BindingResult)
+2018-07-07 11:53:42.167  INFO 13064 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-07-07 11:53:42.169  INFO 13064 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-07-07 11:53:42.200  INFO 13064 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-07 11:53:42.201  INFO 13064 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-07 11:53:42.221  INFO 13064 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : Detected ResponseBodyAdvice implementation in fastJsonpResponseBodyAdvice
+2018-07-07 11:53:42.245  INFO 13064 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-07 11:53:42.465  INFO 13064 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-07-07 11:53:42.547  INFO 13064 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8177 (http)
+2018-07-07 11:53:42.552  INFO 13064 --- [main] com.EmailApplication                     : Started EmailApplication in 4.433 seconds (JVM running for 5.465)
+2018-07-07 12:01:04.236  INFO 16044 --- [main] com.EmailApplication                     : Starting EmailApplication on DESKTOP-PQORCDR with PID 16044 (D:\STS_WorkSpace\Email\target\classes started by Augustine in D:\STS_WorkSpace\Email)
+2018-07-07 12:01:04.240  INFO 16044 --- [main] com.EmailApplication                     : No active profile set, falling back to default profiles: default
+2018-07-07 12:01:04.301  INFO 16044 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1176dcec: startup date [Sat Jul 07 12:01:04 CST 2018]; root of context hierarchy
+2018-07-07 12:01:07.003  INFO 16044 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8177 (http)
+2018-07-07 12:01:07.053  INFO 16044 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-07-07 12:01:07.053  INFO 16044 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-07-07 12:01:07.228  INFO 16044 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-07-07 12:01:07.228  INFO 16044 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2929 ms
+2018-07-07 12:01:07.407  INFO 16044 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-07-07 12:01:07.411  INFO 16044 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-07-07 12:01:07.411  INFO 16044 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-07-07 12:01:07.411  INFO 16044 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-07-07 12:01:07.411  INFO 16044 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-07-07 12:01:07.814  INFO 16044 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1176dcec: startup date [Sat Jul 07 12:01:04 CST 2018]; root of context hierarchy
+2018-07-07 12:01:07.822  INFO 16044 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Detected ResponseBodyAdvice bean in fastJsonpResponseBodyAdvice
+2018-07-07 12:01:07.906  INFO 16044 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/send/email],methods=[POST]}" onto public com.example.demo.vo.response.ResponseResult com.example.demo.controller.SendEmailController.sendEmail(com.example.demo.vo.email.SendEmail,org.springframework.validation.BindingResult)
+2018-07-07 12:01:07.908  INFO 16044 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-07-07 12:01:07.909  INFO 16044 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-07-07 12:01:07.947  INFO 16044 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-07 12:01:07.947  INFO 16044 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-07 12:01:07.965  INFO 16044 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : Detected ResponseBodyAdvice implementation in fastJsonpResponseBodyAdvice
+2018-07-07 12:01:08.005  INFO 16044 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-07 12:01:08.173  INFO 16044 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-07-07 12:01:08.223  INFO 16044 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8177 (http)
+2018-07-07 12:01:08.229  INFO 16044 --- [main] com.EmailApplication                     : Started EmailApplication in 4.38 seconds (JVM running for 4.882)
+2018-07-07 12:02:23.474  INFO 16044 --- [http-nio-8177-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-07-07 12:02:23.474  INFO 16044 --- [http-nio-8177-exec-2] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-07-07 12:02:23.488  INFO 16044 --- [http-nio-8177-exec-2] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 14 ms
+2018-07-07 12:03:04.610  WARN 16044 --- [http-nio-8177-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Failed to read HTTP message: org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character ('t' (code 116)): was expecting double-quote to start field name; nested exception is com.fasterxml.jackson.core.JsonParseException: Unexpected character ('t' (code 116)): was expecting double-quote to start field name
+ at [Source: java.io.PushbackInputStream@63f8523c; line: 2, column: 3]
+2018-07-07 12:05:46.124  INFO 16044 --- [http-nio-8177-exec-5] c.e.demo.controller.SendEmailController  : this is params:SendEmail [toUser=845028133@qq.com, subject=给老鸨的一封信, text=好好带团队]
